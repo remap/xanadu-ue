@@ -149,6 +149,14 @@
 		{
 			"Name": "ModelingToolsEditorMode",
 			"Enabled": true
+		},
+		{
+			"Name": "OVFPPlugin",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/18658c711d5f48f8aa78ff6c80ac9686",
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
 		}
 	]
 }
