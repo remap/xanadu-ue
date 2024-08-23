@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.3",
+	"EngineAssociation": "5.2",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -156,6 +156,14 @@
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/18658c711d5f48f8aa78ff6c80ac9686",
 			"SupportedTargetPlatforms": [
 				"Win64"
+			]
+		},
+		{
+			"Name": "LiveLinkOverNDisplay",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux"
 			]
 		}
 	]
