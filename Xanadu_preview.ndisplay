@@ -1,0 +1,83 @@
+{
+ "nDisplay": {
+  "assetPath": "/Game/ExampleConfigs/NDC_Basic.NDC_Basic",
+  "cluster": {
+   "masterNode": {
+    "id": "131.179.142.165_preview",
+    "ports": {
+     "ClusterEventsBinary": 14028,
+     "ClusterEventsJson": 14027,
+     "ClusterSync": 14025,
+     "RenderSync": 14026
+    }
+   },
+   "network": {
+    "ConnectRetriesAmount": "200",
+    "ConnectRetryDelay": "1000",
+    "FrameEndBarrierTimeout": "50000",
+    "FrameStartBarrierTimeout": "50000",
+    "GameStartBarrierTimeout": "300000",
+    "RenderSyncBarrierTimeout": "50000"
+   },
+   "nodes": {
+    "131.179.142.165_preview": {
+     "fullScreen": false,
+     "host": "131.179.142.165",
+     "sound": false,
+     "viewports": {
+      "vp_0_1073741823": {
+       "GPUIndex": -1,
+       "allowCrossGPUTransfer": true,
+       "bufferRatio": 1,
+       "camera": "DefaultViewPoint",
+       "isShared": false,
+       "projectionPolicy": {
+        "parameters": {
+         "screen": "nDisplayScreen"
+        },
+        "type": "simple"
+       },
+       "region": {
+        "h": 1440,
+        "w": 2560,
+        "x": 0,
+        "y": 0
+       }
+      }
+     },
+     "window": {
+      "h": 1440,
+      "w": 2560,
+      "x": 0,
+      "y": 0
+     }
+    }
+   },
+   "sync": {
+    "inputSyncPolicy": {
+     "type": "ReplicateMaster"
+    },
+    "renderSyncPolicy": {
+     "type": "none"
+    }
+   }
+  },
+  "customParameters": null,
+  "description": "NDisplay config created with Pixera",
+  "diagnostics": {
+   "maxLagTime": 0,
+   "minLagTime": 0,
+   "simulateLag": false
+  },
+  "misc": {
+   "bExitOnEsc": true,
+   "bFollowLocalPlayerCamera": false
+  },
+  "scene": {
+   "screens": {
+    "nDisplayScreen": {}
+   }
+  },
+  "version": "4.27"
+ }
+}
