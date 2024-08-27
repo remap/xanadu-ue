@@ -2,7 +2,15 @@
  "nDisplay": {
   "assetPath": "/Game/ExampleConfigs/NDC_Basic.NDC_Basic",
   "cluster": {
-   "masterNode": null,
+   "masterNode": {
+    "id": "Local",
+    "ports": {
+     "ClusterEventsBinary": 14012,
+     "ClusterEventsJson": 14011,
+     "ClusterSync": 14009,
+     "RenderSync": 14010
+    }
+   },
    "network": {
     "ConnectRetriesAmount": "200",
     "ConnectRetryDelay": "1000",
@@ -11,7 +19,40 @@
     "GameStartBarrierTimeout": "300000",
     "RenderSyncBarrierTimeout": "50000"
    },
-   "nodes": null,
+   "nodes": {
+    "Local": {
+     "fullScreen": false,
+     "host": "131.179.142.165",
+     "sound": false,
+     "viewports": {
+      "vp_0_1116513028": {
+       "GPUIndex": 0,
+       "allowCrossGPUTransfer": true,
+       "bufferRatio": 1,
+       "camera": "DefaultViewPoint",
+       "isShared": false,
+       "projectionPolicy": {
+        "parameters": {
+         "screen": "nDisplayScreen"
+        },
+        "type": "simple"
+       },
+       "region": {
+        "h": 2160,
+        "w": 3840,
+        "x": 0,
+        "y": 0
+       }
+      }
+     },
+     "window": {
+      "h": 2160,
+      "w": 3840,
+      "x": 0,
+      "y": 0
+     }
+    }
+   },
    "sync": {
     "inputSyncPolicy": {
      "type": "ReplicateMaster"
