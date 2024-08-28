@@ -38,16 +38,54 @@
         "type": "simple"
        },
        "region": {
-        "h": 2160,
-        "w": 3840,
+        "h": 648,
+        "w": 768,
         "x": 0,
+        "y": 648
+       }
+      },
+      "vp_1_1116513028": {
+       "GPUIndex": 0,
+       "allowCrossGPUTransfer": true,
+       "bufferRatio": 1,
+       "camera": "DefaultViewPoint",
+       "isShared": false,
+       "projectionPolicy": {
+        "parameters": {
+         "screen": "nDisplayScreen"
+        },
+        "type": "simple"
+       },
+       "region": {
+        "h": 648,
+        "w": 768,
+        "x": 0,
+        "y": 0
+       }
+      },
+      "vp_2_1116513028": {
+       "GPUIndex": 0,
+       "allowCrossGPUTransfer": true,
+       "bufferRatio": 1,
+       "camera": "DefaultViewPoint",
+       "isShared": false,
+       "projectionPolicy": {
+        "parameters": {
+         "screen": "nDisplayScreen"
+        },
+        "type": "simple"
+       },
+       "region": {
+        "h": 648,
+        "w": 768,
+        "x": 768,
         "y": 0
        }
       }
      },
      "window": {
-      "h": 2160,
-      "w": 3840,
+      "h": 1296,
+      "w": 1536,
       "x": 0,
       "y": 0
      }
