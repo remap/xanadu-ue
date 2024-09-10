@@ -1,0 +1,87 @@
+{
+	"assetId": "timjefwr",
+	"assetName": "Roman_Fresco_Broken_Ornate_timjefwr",
+	"assetType": "atlas",
+	"assetSubType": "decal",
+	"assetTier": 2,
+	"assetRootPath": "/Game/Megascans/Decals/Roman_Fresco_Broken_Ornate_timjefwr",
+	"meshList": [],
+	"foliageAssetPaths": [],
+	"materialInstances": [
+		{
+			"instanceId": "mat1",
+			"instanceName": "MI_Roman_Fresco_Broken_Ornate_timjefwr_2K",
+			"instancePath": "/Game/Megascans/Decals/Roman_Fresco_Broken_Ornate_timjefwr/MI_Roman_Fresco_Broken_Ornate_timjefwr_2K.MI_Roman_Fresco_Broken_Ornate_timjefwr_2K",
+			"instanceMaster": "master1",
+			"type": "materialInstance",
+			"params": [
+				{
+					"paramName": "albedo",
+					"usedTextureId": "tex2"
+				},
+				{
+					"paramName": "normal",
+					"usedTextureId": "tex3"
+				},
+				{
+					"paramName": "DRO",
+					"usedTextureId": "tex1"
+				}
+			]
+		}
+	],
+	"textureSets": [
+		{
+			"textureId": "tex1",
+			"type": "DRO",
+			"resolution": "2K",
+			"name": "T_RomanFrescoBrokenOrnate_timjefwr_2K_DpRA",
+			"path": "/Game/Megascans/Decals/Roman_Fresco_Broken_Ornate_timjefwr/T_RomanFrescoBrokenOrnate_timjefwr_2K_DpRA.T_RomanFrescoBrokenOrnate_timjefwr_2K_DpRA",
+			"isChannelPacked": false,
+			"channelPackInfo": [],
+			"pluggedIn": [
+				{
+					"matId": "mat1",
+					"matParams": "PackTexture"
+				}
+			]
+		},
+		{
+			"textureId": "tex2",
+			"type": "albedo",
+			"resolution": "2K",
+			"name": "T_Roman_Fresco_Broken_Ornate_timjefwr_2K_D",
+			"path": "/Game/Megascans/Decals/Roman_Fresco_Broken_Ornate_timjefwr/T_Roman_Fresco_Broken_Ornate_timjefwr_2K_D.T_Roman_Fresco_Broken_Ornate_timjefwr_2K_D",
+			"isChannelPacked": false,
+			"channelPackInfo": [],
+			"pluggedIn": [
+				{
+					"matId": "mat1",
+					"matParams": "albedo"
+				}
+			]
+		},
+		{
+			"textureId": "tex3",
+			"type": "normal",
+			"resolution": "2K",
+			"name": "T_Roman_Fresco_Broken_Ornate_timjefwr_2K_N",
+			"path": "/Game/Megascans/Decals/Roman_Fresco_Broken_Ornate_timjefwr/T_Roman_Fresco_Broken_Ornate_timjefwr_2K_N.T_Roman_Fresco_Broken_Ornate_timjefwr_2K_N",
+			"isChannelPacked": false,
+			"channelPackInfo": [],
+			"pluggedIn": [
+				{
+					"matId": "mat1",
+					"matParams": "normal"
+				}
+			]
+		}
+	],
+	"masterMaterials": [
+		{
+			"masterId": "master1",
+			"masterMaterialName": "M_MS_Decal_Material",
+			"path": "/Game/MSPresets/M_MS_Decal_Material/M_MS_Decal_Material"
+		}
+	]
+}
