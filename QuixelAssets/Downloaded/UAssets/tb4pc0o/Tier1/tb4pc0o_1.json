@@ -1,0 +1,87 @@
+{
+	"assetId": "tb4pc0o",
+	"assetName": "Dry_Leaves_And_Sticks_tb4pc0o",
+	"assetType": "atlas",
+	"assetSubType": "decal",
+	"assetTier": 1,
+	"assetRootPath": "/Game/Megascans/Decals/Dry_Leaves_And_Sticks_tb4pc0o",
+	"meshList": [],
+	"foliageAssetPaths": [],
+	"materialInstances": [
+		{
+			"instanceId": "mat1",
+			"instanceName": "MI_Dry_Leaves_And_Sticks_tb4pc0o_4K",
+			"instancePath": "/Game/Megascans/Decals/Dry_Leaves_And_Sticks_tb4pc0o/MI_Dry_Leaves_And_Sticks_tb4pc0o_4K.MI_Dry_Leaves_And_Sticks_tb4pc0o_4K",
+			"instanceMaster": "master1",
+			"type": "materialInstance",
+			"params": [
+				{
+					"paramName": "albedo",
+					"usedTextureId": "tex2"
+				},
+				{
+					"paramName": "normal",
+					"usedTextureId": "tex3"
+				},
+				{
+					"paramName": "DRO",
+					"usedTextureId": "tex1"
+				}
+			]
+		}
+	],
+	"textureSets": [
+		{
+			"textureId": "tex1",
+			"type": "DRO",
+			"resolution": "4K",
+			"name": "T_DryLeavesAndSticks_tb4pc0o_4K_DpRA",
+			"path": "/Game/Megascans/Decals/Dry_Leaves_And_Sticks_tb4pc0o/T_DryLeavesAndSticks_tb4pc0o_4K_DpRA.T_DryLeavesAndSticks_tb4pc0o_4K_DpRA",
+			"isChannelPacked": false,
+			"channelPackInfo": [],
+			"pluggedIn": [
+				{
+					"matId": "mat1",
+					"matParams": "PackTexture"
+				}
+			]
+		},
+		{
+			"textureId": "tex2",
+			"type": "albedo",
+			"resolution": "4K",
+			"name": "T_Dry_Leaves_And_Sticks_tb4pc0o_4K_D",
+			"path": "/Game/Megascans/Decals/Dry_Leaves_And_Sticks_tb4pc0o/T_Dry_Leaves_And_Sticks_tb4pc0o_4K_D.T_Dry_Leaves_And_Sticks_tb4pc0o_4K_D",
+			"isChannelPacked": false,
+			"channelPackInfo": [],
+			"pluggedIn": [
+				{
+					"matId": "mat1",
+					"matParams": "albedo"
+				}
+			]
+		},
+		{
+			"textureId": "tex3",
+			"type": "normal",
+			"resolution": "4K",
+			"name": "T_Dry_Leaves_And_Sticks_tb4pc0o_4K_N",
+			"path": "/Game/Megascans/Decals/Dry_Leaves_And_Sticks_tb4pc0o/T_Dry_Leaves_And_Sticks_tb4pc0o_4K_N.T_Dry_Leaves_And_Sticks_tb4pc0o_4K_N",
+			"isChannelPacked": false,
+			"channelPackInfo": [],
+			"pluggedIn": [
+				{
+					"matId": "mat1",
+					"matParams": "normal"
+				}
+			]
+		}
+	],
+	"masterMaterials": [
+		{
+			"masterId": "master1",
+			"masterMaterialName": "M_MS_Decal_Material",
+			"path": "/Game/MSPresets/M_MS_Decal_Material/M_MS_Decal_Material"
+		}
+	]
+}
