@@ -1,0 +1,100 @@
+{
+	"assetId": "vmfwcabdw",
+	"assetName": "Old_Wooden_Window_vmfwcabdw",
+	"assetType": "3d",
+	"assetSubType": "multipleMesh",
+	"assetTier": 1,
+	"assetRootPath": "/Game/Megascans/3D_Assets/Old_Wooden_Window_vmfwcabdw",
+	"meshList": [
+		{
+			"meshId": "mesh1",
+			"name": "S_Old_Wooden_Window_vmfwcabdw_lod0_Var1",
+			"path": "/Game/Megascans/3D_Assets/Old_Wooden_Window_vmfwcabdw/S_Old_Wooden_Window_vmfwcabdw_lod0_Var1.S_Old_Wooden_Window_vmfwcabdw_lod0_Var1",
+			"numberOfLods": 5,
+			"materialUsage": [
+				{
+					"instanceId": "mat1",
+					"materialSlot": "0"
+				}
+			]
+		}
+	],
+	"foliageAssetPaths": [],
+	"materialInstances": [
+		{
+			"instanceId": "mat1",
+			"instanceName": "MI_Old_Wooden_Window_vmfwcabdw_4K",
+			"instancePath": "/Game/Megascans/3D_Assets/Old_Wooden_Window_vmfwcabdw/MI_Old_Wooden_Window_vmfwcabdw_4K.MI_Old_Wooden_Window_vmfwcabdw_4K",
+			"instanceMaster": "master1",
+			"type": "materialInstance",
+			"params": [
+				{
+					"paramName": "albedo",
+					"usedTextureId": "tex2"
+				},
+				{
+					"paramName": "normal",
+					"usedTextureId": "tex3"
+				},
+				{
+					"paramName": "DR",
+					"usedTextureId": "tex1"
+				}
+			]
+		}
+	],
+	"textureSets": [
+		{
+			"textureId": "tex1",
+			"type": "DR",
+			"resolution": "4K",
+			"name": "T_OldWoodenWindow_vmfwcabdw_4K_DpR",
+			"path": "/Game/Megascans/3D_Assets/Old_Wooden_Window_vmfwcabdw/T_OldWoodenWindow_vmfwcabdw_4K_DpR.T_OldWoodenWindow_vmfwcabdw_4K_DpR",
+			"isChannelPacked": false,
+			"channelPackInfo": [],
+			"pluggedIn": [
+				{
+					"matId": "mat1",
+					"matParams": "PackTexture"
+				}
+			]
+		},
+		{
+			"textureId": "tex2",
+			"type": "albedo",
+			"resolution": "4K",
+			"name": "T_Old_Wooden_Window_vmfwcabdw_4K_D",
+			"path": "/Game/Megascans/3D_Assets/Old_Wooden_Window_vmfwcabdw/T_Old_Wooden_Window_vmfwcabdw_4K_D.T_Old_Wooden_Window_vmfwcabdw_4K_D",
+			"isChannelPacked": false,
+			"channelPackInfo": [],
+			"pluggedIn": [
+				{
+					"matId": "mat1",
+					"matParams": "albedo"
+				}
+			]
+		},
+		{
+			"textureId": "tex3",
+			"type": "normal",
+			"resolution": "4K",
+			"name": "T_Old_Wooden_Window_vmfwcabdw_4K_N",
+			"path": "/Game/Megascans/3D_Assets/Old_Wooden_Window_vmfwcabdw/T_Old_Wooden_Window_vmfwcabdw_4K_N.T_Old_Wooden_Window_vmfwcabdw_4K_N",
+			"isChannelPacked": false,
+			"channelPackInfo": [],
+			"pluggedIn": [
+				{
+					"matId": "mat1",
+					"matParams": "normal"
+				}
+			]
+		}
+	],
+	"masterMaterials": [
+		{
+			"masterId": "master1",
+			"masterMaterialName": "M_MS_Default_Material",
+			"path": "/Game/MSPresets/M_MS_Default_Material/M_MS_Default_Material"
+		}
+	]
+}
