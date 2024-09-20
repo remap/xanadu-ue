@@ -25,44 +25,6 @@
      "host": "131.179.142.165",
      "sound": false,
      "viewports": {
-      "vp_0_1116513028": {
-       "GPUIndex": 0,
-       "allowCrossGPUTransfer": true,
-       "bufferRatio": 1,
-       "camera": "DefaultViewPoint",
-       "isShared": false,
-       "projectionPolicy": {
-        "parameters": {
-         "screen": "nDisplayScreen"
-        },
-        "type": "simple"
-       },
-       "region": {
-        "h": 1080,
-        "w": 1920,
-        "x": 0,
-        "y": 0
-       }
-      },
-      "vp_1_1116513028": {
-       "GPUIndex": 0,
-       "allowCrossGPUTransfer": true,
-       "bufferRatio": 1,
-       "camera": "DefaultViewPoint",
-       "isShared": false,
-       "projectionPolicy": {
-        "parameters": {
-         "screen": "nDisplayScreen"
-        },
-        "type": "simple"
-       },
-       "region": {
-        "h": 648,
-        "w": 768,
-        "x": 768,
-        "y": 1080
-       }
-      },
       "vp_2_1116513028": {
        "GPUIndex": 0,
        "allowCrossGPUTransfer": true,
@@ -76,16 +38,16 @@
         "type": "simple"
        },
        "region": {
-        "h": 648,
-        "w": 768,
+        "h": 2160,
+        "w": 3840,
         "x": 0,
-        "y": 1080
+        "y": 0
        }
       }
      },
      "window": {
-      "h": 1728,
-      "w": 1920,
+      "h": 2160,
+      "w": 3840,
       "x": 0,
       "y": 0
      }
